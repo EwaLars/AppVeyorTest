@@ -9,7 +9,12 @@ Public Class Form1
 
     Public Shared Function TeileDurch(Dividend As Decimal, Divisor As Decimal) As Decimal
         Dim result As Decimal
-        result = Dividend / Divisor
+        Try
+            result = Dividend / Divisor
+        Catch ex As Exception
+
+        End Try
+
         Return result
     End Function
 End Class
