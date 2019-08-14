@@ -6,9 +6,10 @@ Public Class Form1
     End Sub
 
     Public Shared Function TeileDurch(Dividend As Decimal, Divisor As Decimal) As Decimal
-        Return Dividend / Divisor
+        Dim result As Decimal
+        result = Dividend / Divisor
+        Return result
     End Function
-
 End Class
 
 Public Class Form1_Test
