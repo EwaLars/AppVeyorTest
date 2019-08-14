@@ -7,7 +7,7 @@ Public Class Form1
 
     Public Shared Function TeileDurch(Dividend As Decimal, Divisor As Decimal) As Decimal
         Dim result As Decimal
-        result = Dividend / Divisorh
+        result = Dividend / Divisor
         Return result
     End Function
 End Class
